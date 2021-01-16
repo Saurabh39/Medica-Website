@@ -1,0 +1,160 @@
+body{
+
+  
+
+}
+
+
+.navbar{
+
+  float: right;
+  background-color: rgb(129, 127, 19);
+ 
+
+}
+
+
+.navbar ul {
+
+display: flex;
+padding-right: 60px;
+
+}
+
+
+.navbar ul li {
+
+list-style: none;
+
+
+}
+
+
+.navbar ul li a {
+
+display: block;
+padding: 3px 22px;
+border-radius: 20px;
+text-decoration: none;
+color: rgb(10, 4, 66);
+font-size: large;
+
+}
+
+
+.navbar ul li a:hover{
+
+  font-size: larger;
+  color: antiquewhite;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+.dropbtn {
+  background-color: #ffffff;
+  color: white;
+ 
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  float: right;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: rgb(19, 17, 17);
+  float: right;
+}
+
+
+.fa-instagram {
+  background: #6b062d;
+  color: white;
+  float: right;
+}
+
+.social-media ul a{
+
+  
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+  border-spacing: 3px;
+  word-spacing: 10px;
+
+}
+
+.img{
+
+float: right;
+height: 100;
+width: 100;
+padding-bottom: 90px;
+
+}
+
+.clearfix{
+
+  overflow: auto;
+
+}
+
+.img2 {
+  float: right;
+  padding-left: 49px;
+}
+.medica{
+
+  float: left;
+  position: relative;
+  left: -250px;
+  top:-20;
+  border: 2px solid rgb(8, 0, 0);
+  background-color: #104c7ea8;
+  border-radius: 10px;
+}
+
+.svg{
+
+
+  float: right;
+  display: grid;
+  position: relative;
+  left: -670px;
+  top:-110
+ 
+}
+
+.svg{
+
+  
+}
+
+
+.MedicaImg{
+
+  left: -40px;
+
+}
+
+
+.section{
+
+  background-color: #ac262dd3;
+}
+
+.social-media{
+
+  background-color: #55ACEE;
+}

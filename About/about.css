@@ -1,0 +1,53 @@
+body{
+
+  background-color: #865362;
+
+}
+
+
+
+
+.img{
+
+float: right;
+height: 100;
+width: 100;
+padding-bottom: 90px;
+
+}
+
+.clearfix{
+
+  overflow: auto;
+
+}
+
+.img2 {
+  float: right;
+  padding-left: 49px;
+}
+.medica{
+
+  float: left;
+  position: relative;
+  left: -250px;
+  top:-20
+}
+
+.svg{
+
+
+  float: right;
+  display: grid;
+  position: relative;
+  left: -670px;
+  top:-110
+ 
+}
+
+
+
+.section  {
+
+    background-color: #866757;
+}

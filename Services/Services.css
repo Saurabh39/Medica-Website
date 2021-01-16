@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+  }
+  .services{
+    background: #3b0505;
+    text-align: center;
+    background-color: #52530dce;
+    border-spacing: 10px;
+  }
+  .services h1{
+    display: inline-block;
+    text-transform: uppercase;
+    color: rgb(10, 10, 10);
+    font-family: 'Noto Serif', serif;
+  
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    column-gap: 5px;
+  
+  }
+  
+   
+  .cen{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+  border-spacing: 4px;
+  
+  }
+  .service{
+    display: inline-block;
+    width: calc(80% / 3);
+    height: calc(50% / 2);
+    margin: 0 28px;
+    padding: 20px; 
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 0.3px solid rgb(70, 69, 69);
+    border-radius: 2px;
+    background-color: white;
+    overflow: hidden;
+  
+  }
+  .service:hover{
+    
+    border-radius: 30px;
+    background-color: rgba(156, 33, 53, 0.534);
+  }
+  .service i{
+    color: #3e4041;
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+  .service h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+  }
+  .service p{
+    color: rgb(19, 1, 1);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 10px;
+  }
+  @media screen and (max-width: 800px) {
+    .service{
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .service{
+      width: 100%;
+    }
+  }
+  
+  #para{
+
+    color: red;
+    padding-right: 15px;
+  }
+
+  
